@@ -1,0 +1,133 @@
+$feature-color: #095f93;
+.cv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefefe;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  color: #595959;
+  font-weight: 200;
+}
+
+// ===== header ===== //
+.header {
+  color: #fff;
+}
+
+.nameAndProfession {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.names {
+  display: flex;
+  align-items: baseline;
+}
+
+.name {
+  font-size: 60px;
+  margin: 20px 20px 10px 0;
+}
+
+.nickname {
+  font-size: 30px;
+  margin: 0;
+}
+
+.profession {
+  font-size: 30px;
+  margin: 0;
+}
+
+.profileAndContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 1.625;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 18px;
+  line-height: 1.625;
+}
+
+// main
+.main {
+  padding: 20px 80px 20px 80px;
+  flex-grow: 1;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100%;
+  height: 1400px;
+  line-height: 1.625;
+}
+
+.section {
+  width: 100%;
+}
+
+.sectionTitle {
+  margin: 15px 0 15px 0;
+  font-size: 30px; 
+  line-height: 1.4;
+  color: $feature-color;
+  border-bottom: 2px solid #eee;
+  padding: 0 0 5px 0;
+}
+
+.list,
+.massiveList,
+.educationList {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile,
+.contact {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.massiveList>li {
+  margin: 0 0 15px 0;
+}
+
+.skillList>li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.massiveList>li:last-of-type {
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 20px 0;
+}
+
+.rowTexts {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
